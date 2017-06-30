@@ -11,6 +11,17 @@
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/main.css">
 
+        <script
+            src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+            crossorigin="anonymous"></script>
+        <script src="js/vendor/jquery.fitvids.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('.video-container').fitVids();
+            });
+        </script>
+
 
         <!--[if lt IE 9]>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -32,7 +43,7 @@
                     <a href="https://www.facebook.com/shyboyz69/" class="social-icon--facebook social-icon">
                         <svg class="social-icon__icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><title>facebook</title><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg>
                     </a>
-                    <a href="https://www.youtube.com/channel/UC7e5tc2uicJweRp6lWbDscg" class="social-icon--youtube social-icon">
+                    <a href="https://www.youtube.com/channel/UC7e5tc2uicJweRp6lWbDscg/videos" class="social-icon--youtube social-icon">
                         <svg class="social-icon__icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><title>brand3</title><path d="M0 14.69v2.52c0 2.59.32 5.18.32 5.18s.312 2.2 1.272 3.174c1.216 1.274 2.816 1.234 3.528 1.368 2.56.246 10.88.32 10.88.32s6.724-.008 11.2-.332c.628-.076 1.992-.08 3.208-1.356.96-.972 1.272-3.176 1.272-3.176s.32-2.588.32-5.18v-2.516c0-2.592-.32-5.18-.32-5.18s-.312-2.204-1.272-3.176c-1.216-1.276-2.58-1.28-3.208-1.356-4.476-.324-11.2-.332-11.2-.332s-8.32.072-10.88.32c-.712.134-2.312.094-3.528 1.368C.632 7.31.32 9.51.32 9.51S0 12.102 0 14.69zm12.696 5.46v-8.99l8.646 4.51-8.64 4.48z"/></svg>
                     </a>
                     <a href="https://www.instagram.com/shyboyz69/" class="social-icon--instagram social-icon">
@@ -52,6 +63,10 @@
 
                 <div class="bandcamp-embed">
                     <iframe style="border: 0; width: 300px; height: 420px;" src="https://bandcamp.com/EmbeddedPlayer/album=3698965616/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="http://shyboyz.bandcamp.com/album/2-horses-and-2-naked-boys">2 Horses (and 2 Naked Boys) by Shy Boyz</a></iframe>
+                </div>
+
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/dXzX3C5bDIE" frameborder="0" allowfullscreen></iframe>
                 </div>
 
             </main> <!-- #main -->

@@ -228,6 +228,10 @@ html {
     background-color: #408294;
 }
 
+.bandcamp-embed {
+    margin-bottom: 2rem;
+}
+
 
 
 
@@ -239,6 +243,10 @@ html {
 @media only screen and (max-width: 480px) {
     .bandcamp-embed {
         margin-left: -5px;
+    }
+
+    .blurb {
+        font-size: 14px;
     }
 }
 
