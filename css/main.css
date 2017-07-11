@@ -228,7 +228,8 @@ html {
     background-color: #408294;
 }
 
-.bandcamp-embed {
+.bandcamp-embed,
+.video-container {
     margin-bottom: 2rem;
 }
 
