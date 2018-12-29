@@ -228,6 +228,10 @@ html {
     background-color: #408294;
 }
 
+.social-icon--spotify {
+    background-color: #1ED760;
+}
+
 .bandcamp-embed,
 .video-container {
     margin-bottom: 2rem;
